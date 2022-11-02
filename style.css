@@ -1,101 +1,107 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
-.navbar-custom{
-    background-color: rgb(2, 2, 2);
+.navbar-custom {
+  background-color: rgb(2, 2, 2);
 }
 
-.nav-link{
-    color: white;
+.nav-link {
+  color: white;
 }
 
-.carousel{
-    
+.dropdown-toggle::after{
+    border: none;
+    /* background-image: url(/icons/personicon.svg); */
 }
 
-.carousel-text{
-    background-color: rgb(2, 2, 2);
-    color: white;
-    float: right;
-    width: 30%;
-    height: 100%;
-    padding-top: 80px;
-    padding-bottom: 404px;
-    padding-left: 20px;
-    padding-right: 20px;
+.carousel {
 }
 
-.carousel-indicators button{
-    position: relative;
-    left: 50%;
+.carousel-text {
+  background-color: rgb(2, 2, 2);
+  color: white;
+  float: right;
+  width: 30%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 404px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.carousel-img{
-    float: left;
-    width: 70%;
-    height: 70%;
+.carousel-indicators button {
+  position: relative;
+  left: 50%;
 }
 
- .content{
-    background-color: rgb(11, 11, 11);
- }
+.carousel-img {
+  float: left;
+  width: 70%;
+  height: 70%;
+}
 
- .cards{
-    padding: 74px;
- }
+.content {
+  background-color: rgb(11, 11, 11);
+}
+
+.card01 {
+  padding: 74px;
+}
 
 a.card, a.card:hover {
   color: white;
   text-decoration: none;
 }
 
-.card{
-    border-color: rgb(40, 40, 40);
-    background-color: rgb(2, 2, 2);
-    
+.card {
+  border-color: rgb(40, 40, 40);
+  background-color: rgb(2, 2, 2);
 }
 
-.newswire{
-    padding-bottom: 20px;
+.card02{
+    padding: 74px;
 }
 
-.btn{
-    /* --bs-btn-padding-y: .25rem;
+.newswire {
+  padding-bottom: 20px;
+}
+
+.btn {
+  /* --bs-btn-padding-y: .25rem;
     --bs-btn-padding-x: .5rem;
     --bs-btn-font-size: .75rem; */
-    background: transparent;
-    border: none;
+  background: transparent;
+  border: none;
 }
 
- .footer{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(2, 2, 2);
-    color: white;
-    padding-bottom: 10%;
- }
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  padding-bottom: 10%;
+}
 
- .footerleft{
-    float: left;
- }
+.footerleft {
+  float: left;
+}
 
- .footerright{
-    float: right;
- }
+.footerright {
+  float: right;
+}
 
- .icons{
-    text-decoration: none;
- }
+.icons {
+  text-decoration: none;
+}
 
- .footerbottom{
-    position: absolute;
-    bottom: 0;
- }
- 
+.footerbottom {
+  position: absolute;
+  bottom: 0;
+}
