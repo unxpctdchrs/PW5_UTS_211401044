@@ -3,6 +3,12 @@ body{
     background-repeat: repeat;
 }
 
+/* supaya gambarnya gabisa di klik /di block */
+.jgndiklik{
+    pointer-events: none;
+    user-select: none;
+}
+
 .content {
     width: 30%;
     padding: 20px;
