@@ -4,13 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rockstar Games</title>
+    <!-- untuk ganti icon -->
+    <link rel="icon" href="rlogo.svg" type="image/icon type"> 
+    <!-- ---------------- -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="indexstyle.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -69,7 +72,7 @@
             <img src="icons/personicon.svg" alt="">
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Sign In</a></li>
+            <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
             <li><a class="dropdown-item" href="#">Join Social Club</a></li>
           </ul>
         </div>
@@ -111,7 +114,7 @@
           <div class="carousel-text">
             <div class="gamename">Grand Theft Auto Online</div>
             <h2>The Criminal Enterprise Now Available</h2>
-            <button class="tombol">tes</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -121,7 +124,7 @@
           <div class="carousel-text">
             <div class="gamename">Grand Theft Auto Online</div>
             <h2>The New Declasse Draugur Out Now</h2>
-            <button class="tombol">tes</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -131,7 +134,7 @@
           <div class="carousel-text">
             <div class="gamename">Grand Theft Auto Online</div>
             <h2>Get the New BF Weevil Custom from Benny's</h2>
-            <button class="tombol">tes</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
           </div>
         </div>
       </div>
@@ -140,17 +143,26 @@
     <div class="content">
       <div class="card01">
         <!-- newswire -->
-        <div class="newswire">
-          <a href="">Newswire</a>
+        <div class="news">
+          <a href="" class="newswire">Newswire</a>
         </div>
         <!-- cards -->
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <a href="" class="card h-100">
-              <img src="content/beastnslasher.jpg" class="card-img-top" alt="...">
+              <img src="content/naturalist.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6 class="card-title">Red Dead Online</h6>
+                <h4 class="card-text">Get Naturalist Bonuses and Celebrate Thanksgiving All Month Long in Red Dead Online</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="" class="card h-100">
+              <img src="content/bfweevil.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">GTA Online</h6>
+                <h4 class="card-text">Halloween Hysteria Moves Towards Its Chilling Climax </h4>
               </div>
             </a>
           </div>
@@ -158,44 +170,35 @@
             <a href="" class="card h-100">
               <img src="content/beastnslasher.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6 class="card-title">GTA Online</h6>
+                <h4 class="card-text">Halloween Reaches Fever Pitch in Los Santos This Week</h4>
               </div>
             </a>
           </div>
           <div class="col">
             <a href="" class="card h-100">
-              <img src="content/beastnslasher.jpg" class="card-img-top" alt="...">
+              <img src="content/circolo.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6 class="card-title">Rockstar Games</h6>
+                <h4 class="card-text">CircoLoco Records Presents NYWTF feat. Mikhail Beltran from Chloé Caillet</h4>
               </div>
             </a>
           </div>
           <div class="col">
             <a href="" class="card h-100">
-              <img src="content/beastnslasher.jpg" class="card-img-top" alt="...">
+              <img src="content/hw.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6 class="card-title">GTA Online</h6>
+                <h4 class="card-text">Uncover Jack O’ Lanterns Scattered Across Southern San Andreas, Complete with Tricks or Treats </h4>
               </div>
             </a>
           </div>
           <div class="col">
             <a href="" class="card h-100">
-              <img src="content/beastnslasher.jpg" class="card-img-top" alt="...">
+              <img src="content/jd.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="" class="card h-100">
-              <img src="content/beastnslasher.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6 class="card-title">GTA Online</h6>
+                <h4 class="card-text">Judgement Day Comes to Los Santos in a Month-Long Halloween Event</h4>
               </div>
             </a>
           </div>

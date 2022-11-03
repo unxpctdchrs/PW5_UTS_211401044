@@ -14,6 +14,10 @@ body {
   color: white;
 }
 
+.sidebar{
+  background-color: white;
+}
+
 .dropdown-toggle::after{
     border: none;
     /* background-image: url(/icons/personicon.svg); */
@@ -29,7 +33,7 @@ body {
   width: 30%;
   height: 100%;
   padding-top: 80px;
-  padding-bottom: 404px;
+  padding-bottom: 398px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -63,12 +67,25 @@ a.card, a.card:hover {
   background-color: rgb(2, 2, 2);
 }
 
+.card-body{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .card02{
     padding: 74px;
 }
 
-.newswire {
+.news{
   padding-bottom: 20px;
+}
+
+.newswire, .newswire:hover{
+  text-decoration: none;
+  font-size: 100;
+  color: white;
 }
 
 .btn {
@@ -81,12 +98,13 @@ a.card, a.card:hover {
 
 .footer {
   position: relative;
-  left: 0;
-  bottom: 0;
+  /* left: 0;
+  bottom: 0; */
   width: 100%;
   background-color: rgb(2, 2, 2);
   color: white;
-  padding-bottom: 10%;
+  padding-bottom: 26%;
+  padding-top: 20px;
 }
 
 .footerleft {

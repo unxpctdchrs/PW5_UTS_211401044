@@ -1,0 +1,49 @@
+body{
+    background-image: url("background/bg-repeat.png");
+    background-repeat: repeat;
+}
+
+.content {
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.logo img{
+    height: 5.125rem!important;
+    width: 18.13rem!important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.clear{
+    padding: 20px;
+}
+
+.clear1{
+    padding: 10px;
+}
+
+.signinforms{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.plgbawah{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.plgbawah a{
+    text-decoration: none;
+    color: white;
+}
+
+.plgbawah a:hover{
+    color: #FBAF19;
+}
