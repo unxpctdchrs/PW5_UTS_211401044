@@ -17,45 +17,45 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-custom navbar0-expand-lg">
+    <nav class="navbar navbar-custom navbar0-expand-lg navbar-dark">
       <div class="container-fluid">
         <ul class="navbar-nav me-auto">
-          <!--sidebar-->
+          <!--sidebar / offcanvas-->
           <div class="sidebar me-auto">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
+            <div class="offcanvas offcanvas-start text-bg-custom" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <!-- search -->
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search Rockstar Games" aria-label="Search">
+              </form>
+              <!-- offcanvas body -->
+              <!-- tambahkan "active + aria-current="page" " buat menunjukkan halaman mana yang sedang dikunjungi -->
               <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="reference.html">Reference</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Newswire</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Downloads</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Social Club</a>
                   </li>
                 </ul>
-                <form class="d-flex mt-3" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </div>
@@ -69,9 +69,9 @@
         <!--dropdown yang dikanan-->
         <div class="dropdown ms-auto">
           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="icons/personicon.svg" alt="">
+            <img src="icons/personicon.svg" width="50px" height="50px" alt="">
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
             <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
             <li><a class="dropdown-item" href="#">Join Social Club</a></li>
           </ul>

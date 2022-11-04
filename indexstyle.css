@@ -14,16 +14,17 @@ body {
   color: white;
 }
 
-.sidebar{
-  background-color: white;
+.offcanvas{
+  padding: 20px;
+  background-color: rgb(2, 2, 2);
 }
 
 .dropdown-toggle::after{
     border: none;
-    /* background-image: url(/icons/personicon.svg); */
 }
 
-.carousel {
+.dropdown-menu{
+  background-color: rgb(2, 2, 2);
 }
 
 .carousel-text {
