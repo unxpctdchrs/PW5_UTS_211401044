@@ -5,7 +5,7 @@
 body {
   overflow-x: hidden;
 }
-
+/* navbar */
 .navbar-custom {
   background-color: rgb(2, 2, 2);
 }
@@ -14,11 +14,13 @@ body {
   color: white;
 }
 
+/* sidebar yang dikiri */
 .offcanvas{
   padding: 20px;
   background-color: rgb(2, 2, 2);
 }
 
+/* yang mengatur dropdown yang dikanan */
 .dropdown-toggle::after{
     border: none;
 }
@@ -27,6 +29,17 @@ body {
   background-color: rgb(2, 2, 2);
 }
 
+.btn {
+  background: transparent;
+  border: none;
+}
+
+.btn:hover{
+  background-color: rgb(2, 2, 2);
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* carousel */
 .carousel-text {
   background-color: rgb(2, 2, 2);
   color: white;
@@ -89,14 +102,7 @@ a.card, a.card:hover {
   color: white;
 }
 
-.btn {
-  /* --bs-btn-padding-y: .25rem;
-    --bs-btn-padding-x: .5rem;
-    --bs-btn-font-size: .75rem; */
-  background: transparent;
-  border: none;
-}
-
+/* pengatur footer */
 .footer {
   position: relative;
   /* left: 0;

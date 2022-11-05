@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  /* navbar */
+  .navbar-custom {
+    background-color: rgb(2, 2, 2);
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  /* offcanvas / sidebar */
+  .offcanvas{
+    padding: 20px;
+    background-color: rgb(2, 2, 2);
+  }
+  /* pengatur dropdown yang dikanan */
+  .dropdown-toggle::after{
+      border: none;
+  }
+  
+  .dropdown-menu{
+    background-color: rgb(2, 2, 2);
+  }
+
+  .btn {
+    background: transparent;
+    border: none;
+  }
+
+  .btn:hover{
+    background-color: rgb(2, 2, 2);
+  }
+
+  /* pengatur footer */
+.footer {
+    position: relative;
+    /* left: 0;
+    bottom: 0; */
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    padding-bottom: 26%;
+    padding-top: 20px;
+  }
+  
+  .footerleft {
+    float: left;
+  }
+  
+  .footerright {
+    float: right;
+  }
+  
+  .icons {
+    text-decoration: none;
+  }
+  
+  .footerbottom {
+    position: absolute;
+    bottom: 0;
+  }
+  
