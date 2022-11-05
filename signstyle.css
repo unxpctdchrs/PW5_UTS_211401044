@@ -45,11 +45,34 @@ body{
     padding: 5px;
 }
 
-.row{
-    padding: 10px;
+.lupa{
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
-.col-6{
+.lupa a{
+    text-decoration: none;
+    color: black;
+}
+
+.lupa a:hover{
+    color: #FBAF19;
+}
+
+.btn-custom{
+    background-color: #FBAF19;
+}
+
+.btn-custom:hover{
+    background-color: #F7931E;
+}
+
+.rowbawah{
+    padding: 6px;
+}
+
+.siu{
     display: flex;
     align-items: center;
     justify-content: left;
