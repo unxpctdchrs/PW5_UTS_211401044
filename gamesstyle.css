@@ -14,11 +14,32 @@ body {
 .nav-link {
   color: white;
 }
+
+.nav-link:hover {
+  color: #fbaf19;
+}
+
+.active {
+  color: #fbaf19 !important;
+}
+
+.form input{
+  margin-left: 15px;
+  width: 90%;
+  border: none;
+  padding-left: 30px;
+  background: url(icons/srch.svg) no-repeat left;
+  background-size: 20px;
+  color: rgb(172, 172, 172);
+  background-color: rgb(17, 17, 17);
+}
+
 /* offcanvas / sidebar */
 .offcanvas {
   padding: 20px;
   background-color: rgb(2, 2, 2);
 }
+
 /* pengatur dropdown yang dikanan */
 .dropdown-toggle::after {
   border: none;
@@ -48,7 +69,7 @@ body {
 }
 
 .card {
-    background-color: rgb(2, 2, 2);
+  background-color: rgb(2, 2, 2);
 }
 
 /* pengatur footer */
