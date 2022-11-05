@@ -102,4 +102,7 @@ body {
 .footerbottom {
   position: absolute;
   bottom: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
