@@ -91,6 +91,7 @@ body {
 
 .card01 {
   padding: 74px;
+  padding-bottom: 20px;
 }
 
 a.card, a.card:hover {
@@ -112,16 +113,43 @@ a.card, a.card:hover {
 
 .card02{
     padding: 74px;
+    padding-bottom: 20px;
 }
 
 .news{
   padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 .newswire, .newswire:hover{
   text-decoration: none;
   font-size: 100;
   color: white;
+}
+
+.btnviewmore1{
+  width: 100%;
+  margin: auto;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.btnviewmore2{
+  width: 100%;
+  margin: auto;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.btnviewmore1 a, .btnviewmore2 a{
+  border: 1px solid #FBAF19;
+}
+
+.btnviewmore1 a:hover, .btnviewmore2 a:hover{
+  background-color: #FBAF19;
 }
 
 /* pengatur footer */
@@ -154,4 +182,5 @@ a.card, a.card:hover {
   margin: auto;
   width: 100%;
   text-align: center;
+  padding-bottom: 20px;
 }
