@@ -35,8 +35,24 @@ body{
 
 .signinforms{
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.col-6{
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .plgbawah{
