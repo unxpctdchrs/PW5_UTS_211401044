@@ -8,6 +8,9 @@ body {
 /* navbar */
 .navbar-custom {
   background-color: rgb(2, 2, 2);
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .nav-link {
@@ -67,8 +70,8 @@ body {
   height: 100%;
   padding-top: 80px;
   padding-bottom: 398px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 50px;
 }
 
 .carousel-indicators button {
@@ -148,4 +151,7 @@ a.card, a.card:hover {
 .footerbottom {
   position: absolute;
   bottom: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
