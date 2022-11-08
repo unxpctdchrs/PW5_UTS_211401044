@@ -76,33 +76,45 @@ body {
 }
 
 /* pengatur footer */
-.footer {
-  position: relative;
-  /* left: 0;
-    bottom: 0; */
-  width: 100%;
+.footer{
   background-color: rgb(2, 2, 2);
+}
+
+.footercontent{
+  padding: 60px;
   color: white;
-  padding-bottom: 26%;
-  padding-top: 20px;
 }
 
-.footerleft {
-  float: left;
-}
-
-.footerright {
-  float: right;
-}
-
-.icons {
+.atas a{
   text-decoration: none;
+  color: white;
+  font-size: 21px;
 }
 
-.footerbottom {
-  position: absolute;
-  bottom: 0;
-  margin: auto;
-  width: 100%;
-  text-align: center;
+.atas a:hover{
+  color: #FBAF19;
+}
+
+.tengah a{
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+}
+
+.tengah a:hover{
+  color: #FBAF19;
+}
+
+.bawah{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* pengaturan jarak konten footer */
+.footerclear1{
+  padding: 20px;
+}
+
+.footerclear2{
+  padding: 40px;
 }
