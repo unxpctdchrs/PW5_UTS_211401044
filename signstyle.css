@@ -72,12 +72,22 @@ body{
 .rowbawah{
     padding: 6px;
 }
+/* //////////////////////// */
+.containerlol{
+    padding: 10px;
+}
 
 .siu{
     display: flex;
     align-items: center;
     justify-content: left;
 }
+
+.signusing img{
+    width: 30px;
+    height: 30px;
+}
+/* ////////////////////////// */
 
 .plgbawah{
     text-align: center;
